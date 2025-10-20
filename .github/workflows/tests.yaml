@@ -19,4 +19,6 @@ jobs:
 
       - run: chmod +x setup.sh all_tests.sh
       - run: ./setup.sh
-      - run: ./all_tests.sh
+      - run: |
+          source venv/bin/activate
+          ./all_tests.sh
