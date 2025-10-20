@@ -5,5 +5,6 @@
 
 pip install django
 pip install django-extensions
+pip install dotenv
 ./db.sh
 ./manage.py createsuperuser
