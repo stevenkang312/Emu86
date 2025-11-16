@@ -19,7 +19,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y sshpass
 
-      - name: Deploy via SSH (username + password)
+      - name: Deploy via SSH
         env:
           PA_USERNAME: ${{ secrets.PYTHONANYWHERE_USERNAME }}
           PA_PASSWORD: ${{ secrets.PYTHONANYWHERE_PASSWORD }}
